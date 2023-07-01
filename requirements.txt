@@ -6,3 +6,4 @@ opencv-python
 albumentations
 flask_cors
 Pillow
+Gunicorn
