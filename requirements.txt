@@ -4,7 +4,6 @@ torch
 joblib
 opencv-python
 albumentations
-base64
 os
 flask_cors
 PIL
