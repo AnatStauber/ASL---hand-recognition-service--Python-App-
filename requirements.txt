@@ -5,4 +5,4 @@ joblib
 opencv-python
 albumentations
 flask_cors
-PIL
+Pillow
