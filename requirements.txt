@@ -2,7 +2,7 @@ Flask>=2.2.2
 pandas==1.2.4
 torch
 joblib
-cv2
+opencv-python
 albumentations
 base64
 os
