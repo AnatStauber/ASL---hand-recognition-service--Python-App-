@@ -105,5 +105,5 @@ def detect_gesture():
     # Return the detected gesture as a JSON response
     return jsonify({'gesture': detected_gesture})
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
