@@ -58,7 +58,9 @@ def hand_area(img):
     print("Image saved successfully.")
     return hand
 
-
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
 
 @app.route('/api/detect-gesture', methods=['POST'])
 def detect_gesture():
