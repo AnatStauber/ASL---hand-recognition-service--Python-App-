@@ -61,6 +61,10 @@ def hand_area(img):
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
+    
+@app.route('/api/detect-gesture', methods=['GET'])
+def test():
+    return 'test works'
 
 @app.route('/api/detect-gesture', methods=['POST'])
 def detect_gesture():
